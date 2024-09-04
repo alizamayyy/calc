@@ -101,6 +101,7 @@ function App() {
         <button onClick={clearDisplay} className="clear-btn">
           Clear
         </button>
+        <p>hello world!</p>
       </div>
     </div>
   );
