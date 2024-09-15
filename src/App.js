@@ -38,8 +38,9 @@ function App() {
         <button onClick={() => handleClick("9")}>9</button>
         <button onClick={() => handleClick("*")}>*</button>
         <button onClick={() => handleClick("0")}>0</button>
-        <button onClick={calculate}>=</button>
+
         <button onClick={() => handleClick("/")}>&divide;</button>
+        <button onClick={calculate}>=</button>
         <button onClick={clearInput}>C</button>
       </div>
     </div>
